@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8D5A4F16-2250-4DF3-BE45-6AC45832B3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow_Checker.API", "InstaFollow_Checker.API\InstaFollow_Checker.API.csproj", "{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow_Checker.Web", "InstaFollow_Checker.Web\InstaFollow_Checker.Web.csproj", "{544BC1AA-51AA-42A7-B5AD-22F07885F003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow_Checker.Application", "InstaFollow_Checker.Application\InstaFollow_Checker.Application.csproj", "{691D8084-3801-423F-BF94-7BB1ACEE508E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow_Checker.Infraesttructure", "InstaFollow_Checker.Infraesttructure\InstaFollow_Checker.Infraesttructure.csproj", "{1CFC071C-945A-43F5-92C1-B2E380415076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow_Checker.Domain", "InstaFollow_Checker.Domain\InstaFollow_Checker.Domain.csproj", "{9D42842B-00E9-4473-81D3-7C6BCE985710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaFollow_Checker.Test", "InstaFollow_Checker.Test\InstaFollow_Checker.Test.csproj", "{1717817B-EE19-4505-A0F9-221657964704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544BC1AA-51AA-42A7-B5AD-22F07885F003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544BC1AA-51AA-42A7-B5AD-22F07885F003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544BC1AA-51AA-42A7-B5AD-22F07885F003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544BC1AA-51AA-42A7-B5AD-22F07885F003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691D8084-3801-423F-BF94-7BB1ACEE508E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691D8084-3801-423F-BF94-7BB1ACEE508E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691D8084-3801-423F-BF94-7BB1ACEE508E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691D8084-3801-423F-BF94-7BB1ACEE508E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CFC071C-945A-43F5-92C1-B2E380415076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFC071C-945A-43F5-92C1-B2E380415076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFC071C-945A-43F5-92C1-B2E380415076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFC071C-945A-43F5-92C1-B2E380415076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D42842B-00E9-4473-81D3-7C6BCE985710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D42842B-00E9-4473-81D3-7C6BCE985710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D42842B-00E9-4473-81D3-7C6BCE985710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D42842B-00E9-4473-81D3-7C6BCE985710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1717817B-EE19-4505-A0F9-221657964704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1717817B-EE19-4505-A0F9-221657964704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1717817B-EE19-4505-A0F9-221657964704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1717817B-EE19-4505-A0F9-221657964704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22E67A6B-3206-4E8C-8802-31E74B8B5DC4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{544BC1AA-51AA-42A7-B5AD-22F07885F003} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{691D8084-3801-423F-BF94-7BB1ACEE508E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1CFC071C-945A-43F5-92C1-B2E380415076} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9D42842B-00E9-4473-81D3-7C6BCE985710} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1717817B-EE19-4505-A0F9-221657964704} = {8D5A4F16-2250-4DF3-BE45-6AC45832B3C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3143A355-D088-43CB-9716-D159014241FB}
+	EndGlobalSection
+EndGlobal

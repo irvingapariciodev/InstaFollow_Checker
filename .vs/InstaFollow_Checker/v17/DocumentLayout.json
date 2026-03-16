@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.application\\usecases\\analyzeinstagramfollowsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|solutionrelative:instafollow_checker.application\\usecases\\analyzeinstagramfollowsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.application\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|solutionrelative:instafollow_checker.application\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.application\\dto\\followanalysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|solutionrelative:instafollow_checker.application\\dto\\followanalysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.application\\services\\followanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{691D8084-3801-423F-BF94-7BB1ACEE508E}|InstaFollow_Checker.Application\\InstaFollow_Checker.Application.csproj|solutionrelative:instafollow_checker.application\\services\\followanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +55,62 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalyzeInstagramFollowsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\UseCases\\AnalyzeInstagramFollowsUseCase.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Application\\UseCases\\AnalyzeInstagramFollowsUseCase.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\UseCases\\AnalyzeInstagramFollowsUseCase.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Application\\UseCases\\AnalyzeInstagramFollowsUseCase.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:57:21.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardDto.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\DTO\\DashboardDto.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Application\\DTO\\DashboardDto.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\DTO\\DashboardDto.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Application\\DTO\\DashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:53:33.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FollowAnalysisResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\DTO\\FollowAnalysisResultDto.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Application\\DTO\\FollowAnalysisResultDto.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\DTO\\FollowAnalysisResultDto.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Application\\DTO\\FollowAnalysisResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:53:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FollowAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\Services\\FollowAnalysisService.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Application\\Services\\FollowAnalysisService.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Application\\Services\\FollowAnalysisService.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Application\\Services\\FollowAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T22:07:45.287Z",
+              "EditorCaption": ""
             }
           ]
         }

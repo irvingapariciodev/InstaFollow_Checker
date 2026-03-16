@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InstaFollow_Checker.Domain\InstaFollow_Checker.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

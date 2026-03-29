@@ -11,13 +11,16 @@ namespace InstaFollow_Checker.Infraesttructure.Parsers
 
             using var document = JsonDocument.Parse(jsonContent);
 
-            if (document.RootElement.TryGetProperty("string_list_data", out var list))
+            foreach (var element in document.RootElement.EnumerateArray())
             {
-                foreach (var item in list.EnumerateArray())
+                if (element.TryGetProperty("string_list_data", out var list))
                 {
-                    if (item.TryGetProperty("value", out var username))
+                    foreach (var item in list.EnumerateArray())
                     {
-                        followers.Add(username.GetString() ?? string.Empty);
+                        if (item.TryGetProperty("value", out var username))
+                        {
+                            followers.Add(username.GetString() ?? string.Empty);
+                        }
                     }
                 }
             }

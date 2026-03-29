@@ -1,9 +1,16 @@
+using InstaFollow_Checker.Application.UseCases;
+using InstaFollow_Checker.Infraesttructure.DependencyInjection;
+using InstaFollow_Checker.Application.Interfaces;
+using InstaFollow_Checker.Application.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<AnalyzeInstagramFollowsUseCase>();
+builder.Services.AddScoped<IFollowAnalysisService, FollowAnalysisService>();
+builder.Services.AddInfrastructure();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

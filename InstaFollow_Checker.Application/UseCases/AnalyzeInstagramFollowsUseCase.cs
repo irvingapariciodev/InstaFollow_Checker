@@ -3,20 +3,12 @@ using InstaFollow_Checker.Application.Interfaces;
 
 namespace InstaFollow_Checker.Application.UseCases
 {
-    public class AnalyzeInstagramFollowsUseCase
+    public class AnalyzeInstagramFollowsUseCase(IFileReader fileReader, IGetFollowing getFollowing, IGetFollowers getFollowers, IFollowAnalysisService followAnalysisService)
     {
-        private readonly IFileReader _fileReader;
-        private readonly IGetFollowing _getFollowing;
-        private readonly IGetFollowers _getFollowers;
-        private readonly IFollowAnalysisService _followAnalysisService;
-
-        public AnalyzeInstagramFollowsUseCase(IFileReader fileReader, IGetFollowing getFollowing, IGetFollowers getFollowers, IFollowAnalysisService followAnalysisService)
-        {
-            _fileReader = fileReader;
-            _getFollowing = getFollowing;
-            _getFollowers = getFollowers;
-            _followAnalysisService = followAnalysisService;
-        }
+        private readonly IFileReader _fileReader = fileReader;
+        private readonly IGetFollowing _getFollowing = getFollowing;
+        private readonly IGetFollowers _getFollowers = getFollowers;
+        private readonly IFollowAnalysisService _followAnalysisService = followAnalysisService;
 
         public async Task<FollowAnalysisResultDto> ExecuteAsync(Stream followersFile, Stream followingFile)
         {

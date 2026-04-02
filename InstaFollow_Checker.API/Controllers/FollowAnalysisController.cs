@@ -5,14 +5,9 @@ namespace InstaFollow_Checker.API.Controllers
 {
     [ApiController]
     [Route("api/follow-analysis")]
-    public class FollowAnalysisController : ControllerBase
+    public class FollowAnalysisController(AnalyzeInstagramFollowsUseCase useCase) : ControllerBase
     {
-        private readonly AnalyzeInstagramFollowsUseCase _useCase;
-
-        public FollowAnalysisController(AnalyzeInstagramFollowsUseCase useCase)
-        {
-            _useCase = useCase;
-        }
+        private readonly AnalyzeInstagramFollowsUseCase _useCase = useCase;
 
         [HttpPost]
         public async Task<IActionResult> Analyze(IFormFile followersFile, IFormFile followingFile)

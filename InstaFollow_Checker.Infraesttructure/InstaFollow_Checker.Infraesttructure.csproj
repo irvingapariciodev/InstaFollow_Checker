@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="FileProcessing\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MDN.Core.DependecyInjection" Version="2.0.0" />
   </ItemGroup>
 

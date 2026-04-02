@@ -4,10 +4,18 @@ namespace InstaFollow_Checker.Application.Interfaces
 {
     public interface IFollowAnalysisService
     {
-        IEnumerable<string> GetUsersNotFollowingBack(IEnumerable<string> followers, IEnumerable<string> following);
+        int GetFollowersCount(IEnumerable<InstagramUser> followers);
 
-        int GetFollowersCount(IEnumerable<string> followers);
+        int GetFollowingCount(IEnumerable<InstagramUser> following);
 
-        int GetFollowingCount(IEnumerable<string> following);
+        IEnumerable<string> GetUsersNotFollowingBack(IEnumerable<InstagramUser> followers, IEnumerable<InstagramUser> following);
+
+        IEnumerable<string> ClearDuplicateFollowers(IEnumerable<InstagramUser> followers);
+
+        IEnumerable<string> ClearDuplicateFollowing(IEnumerable<InstagramUser> following);
+
+        IEnumerable<string> GetUsernameFollowers(IEnumerable<InstagramUser> followers);
+
+        IEnumerable<string> GetUsernameFollowing(IEnumerable<InstagramUser> following);
     }
 }

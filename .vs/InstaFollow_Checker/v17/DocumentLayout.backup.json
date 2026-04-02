@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.infraesttructure\\services\\filereaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|solutionrelative:instafollow_checker.infraesttructure\\services\\filereaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.infraesttructure\\parsers\\followingparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|solutionrelative:instafollow_checker.infraesttructure\\parsers\\followingparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.infraesttructure\\parsers\\followersparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|solutionrelative:instafollow_checker.infraesttructure\\parsers\\followersparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.infraesttructure\\dependencyinjection\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CFC071C-945A-43F5-92C1-B2E380415076}|InstaFollow_Checker.Infraesttructure\\InstaFollow_Checker.Infraesttructure.csproj|solutionrelative:instafollow_checker.infraesttructure\\dependencyinjection\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileReaderService.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\Services\\FileReaderService.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Infraesttructure\\Services\\FileReaderService.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\Services\\FileReaderService.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Infraesttructure\\Services\\FileReaderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:21:52.419Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -38,6 +68,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FollowingParserService.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\Parsers\\FollowingParserService.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Infraesttructure\\Parsers\\FollowingParserService.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\Parsers\\FollowingParserService.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Infraesttructure\\Parsers\\FollowingParserService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:21:44.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FollowersParserService.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\Parsers\\FollowersParserService.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Infraesttructure\\Parsers\\FollowersParserService.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\Parsers\\FollowersParserService.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Infraesttructure\\Parsers\\FollowersParserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:21:36.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfrastructureServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\DependencyInjection\\InfrastructureServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Infraesttructure\\DependencyInjection\\InfrastructureServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Infraesttructure\\DependencyInjection\\InfrastructureServiceCollectionExtensions.cs",
+              "RelativeToolTip": "InstaFollow_Checker.Infraesttructure\\DependencyInjection\\InfrastructureServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T18:21:19.493Z",
+              "EditorCaption": ""
             }
           ]
         }

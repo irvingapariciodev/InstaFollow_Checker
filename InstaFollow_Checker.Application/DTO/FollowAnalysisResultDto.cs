@@ -8,6 +8,7 @@
 
         public int NotFollowingBackCount { get; set; }
 
-        public IEnumerable<string> UsersNotFollowingBack { get; set; } = new List<string>();
+        public IEnumerable<string> UsersNotFollowingBack { get; set; } = [];
+
     }
 }

@@ -4,6 +4,6 @@ namespace InstaFollow_Checker.Application.Interfaces
 {
     public interface IGetFollowers
     {
-        IEnumerable<string> GetFollowers(string jsonContent);
+        IEnumerable<InstagramUser> GetFollowers(string jsonContent);
     }
 }

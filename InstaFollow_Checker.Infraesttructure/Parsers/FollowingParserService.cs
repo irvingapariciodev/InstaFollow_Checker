@@ -1,15 +1,16 @@
 ﻿using InstaFollow_Checker.Application.Interfaces;
+using InstaFollow_Checker.Domain.Models;
 using System.Text.Json;
 
 namespace InstaFollow_Checker.Infraesttructure.Parsers
 {
     internal class FollowingParserService : IGetFollowing
     {
-        public IEnumerable<string> GetFollowing(string jsonContent)
+        public IEnumerable<InstagramUser> GetFollowing(string jsonContent)
         {
             using var document = JsonDocument.Parse(jsonContent);
 
-            var followers = new List<string>();
+            var followers = new List<InstagramUser>();
 
             if (document.RootElement.ValueKind == JsonValueKind.Array)
             {
@@ -26,7 +27,7 @@ namespace InstaFollow_Checker.Infraesttructure.Parsers
             return followers;
         }
 
-        private static void ParseArray(JsonElement array, List<string> result)
+        private static void ParseArray(JsonElement array, List<InstagramUser> followers)
         {
             foreach (var element in array.EnumerateArray())
             {
@@ -35,9 +36,15 @@ namespace InstaFollow_Checker.Infraesttructure.Parsers
 
                 foreach (var item in list.EnumerateArray())
                 {
-                    if (item.TryGetProperty("href", out var username))
+                    if (item.TryGetProperty("href", out var urlProfile))
                     {
-                        result.Add(username.GetString().Replace("https://www.instagram.com/_u/", "") ?? string.Empty);
+                        var username = urlProfile.GetString();
+
+                        if (!string.IsNullOrWhiteSpace(username))
+                        {
+                            username = username.Replace("https://www.instagram.com/_u/", "").TrimEnd('/');
+                            followers.Add(new InstagramUser(username, item.GetProperty("href").ToString(), long.MinValue));
+                        }
                     }
                 }
             }

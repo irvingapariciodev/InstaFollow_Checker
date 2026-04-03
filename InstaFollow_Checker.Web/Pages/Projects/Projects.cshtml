@@ -1,0 +1,47 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Projects";
+}
+<h1 class="text-center display-4"><b>@ViewData["Title"]</b></h1>
+<br />
+@* <p class="text-left">Discover My Projects:</p> *@
+<br />
+<div class="container">
+    <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+                <img src="~/resources/img/instafollowchecker_summary.png"
+                     class="card-img-top img-fluid"
+                     alt="InstaFollow Checker">
+
+                <div class="card-body text-center">
+                    <h5 class="card-title">InstaFollow Checker</h5>
+
+                    <p class="card-text">
+                        Web application that analyzes Instagram follower and following accounts.
+                        Application generates insights such as total followers, total following,
+                        and users that do not follow back.
+                    </p>
+
+                    <a class="btn btn-primary"
+                       asp-page="/Projects/InstaFollowChecker/InstaFollowChecker">
+                        VISIT
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <!-- Future project -->
+            
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <!-- Future project -->
+            
+        </div>
+    </div>
+</div>
+

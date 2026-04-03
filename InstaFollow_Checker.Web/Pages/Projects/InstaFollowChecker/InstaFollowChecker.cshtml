@@ -1,0 +1,45 @@
+﻿@page
+@model InstaFollow_Checker.Web.Pages.Projects.InstaFollowChecker.InstaFollowCheckerModel
+@{
+    ViewData["Title"] = "InstaFollowChecker";
+}
+<h1 class="text-center display-4"><b>@ViewData["Title"]</b></h1>
+<br />
+<br />
+<div class="container">
+    <div class="row align-items-center g-4">
+
+        <!-- Image -->
+        <div class="col-12 col-lg-8 text-center">
+            <img src="~/resources/img/instafollowchecker_summary.png"
+                 class="img-fluid"
+                 alt="InstaFollowChecker Plan">
+        </div>
+
+        <!-- Form -->
+        <div class="col-12 col-lg-4">
+
+            <div class="mb-4">
+                <label for="followersJSONFile" class="form-label">
+                    Follower Json file
+                </label>
+                <input class="form-control" type="file" id="followerFile">
+            </div>
+
+            <div class="mb-4">
+                <label for="followingJSONFile" class="form-label">
+                    Following Json file
+                </label>
+                <input class="form-control" type="file" id="followingFile">
+            </div>
+
+            <div class="d-grid">
+                <input class="btn btn-outline-primary"
+                       type="submit"
+                       value="Send">
+            </div>
+
+        </div>
+
+    </div>
+</div>

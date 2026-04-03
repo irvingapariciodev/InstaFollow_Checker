@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\AboutMe\" />
+    <Folder Include="Pages\ContactMe\" />
+    <Folder Include="wwwroot\resources\img\" />
+  </ItemGroup>
+
 </Project>

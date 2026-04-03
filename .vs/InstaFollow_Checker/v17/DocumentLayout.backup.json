@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{544BC1AA-51AA-42A7-B5AD-22F07885F003}|InstaFollow_Checker.Web\\InstaFollow_Checker.Web.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{544BC1AA-51AA-42A7-B5AD-22F07885F003}|InstaFollow_Checker.Web\\InstaFollow_Checker.Web.csproj|solutionrelative:instafollow_checker.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{544BC1AA-51AA-42A7-B5AD-22F07885F003}|InstaFollow_Checker.Web\\InstaFollow_Checker.Web.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.web\\pages\\projects\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{544BC1AA-51AA-42A7-B5AD-22F07885F003}|InstaFollow_Checker.Web\\InstaFollow_Checker.Web.csproj|solutionrelative:instafollow_checker.web\\pages\\projects\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544BC1AA-51AA-42A7-B5AD-22F07885F003}|InstaFollow_Checker.Web\\InstaFollow_Checker.Web.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.web\\pages\\projects\\instafollowchecker\\instafollowchecker.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{544BC1AA-51AA-42A7-B5AD-22F07885F003}|InstaFollow_Checker.Web\\InstaFollow_Checker.Web.csproj|solutionrelative:instafollow_checker.web\\pages\\projects\\instafollowchecker\\instafollowchecker.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "InstaFollow_Checker.Web\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "InstaFollow_Checker.Web\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Projects\\Projects.cshtml",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Web\\Pages\\Projects\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Projects\\Projects.cshtml",
+              "RelativeToolTip": "InstaFollow_Checker.Web\\Pages\\Projects\\Projects.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-03T19:43:09.174Z",
+              "WhenOpened": "2026-04-03T22:47:56.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InstaFollowChecker.cshtml",
+              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
+              "RelativeDocumentMoniker": "InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
+              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
+              "RelativeToolTip": "InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-03T22:45:26.896Z",
               "EditorCaption": ""
             }
           ]

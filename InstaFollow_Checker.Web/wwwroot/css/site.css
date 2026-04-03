@@ -20,3 +20,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+    .nav-icon i {
+        font-size: 20px;
+    }

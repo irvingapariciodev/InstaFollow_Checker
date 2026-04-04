@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,10 +45,6 @@
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "InstaFollowChecker.cshtml",
@@ -56,7 +52,7 @@
               "RelativeDocumentMoniker": "InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
               "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
               "RelativeToolTip": "InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-04T00:06:15.236Z",
               "EditorCaption": ""

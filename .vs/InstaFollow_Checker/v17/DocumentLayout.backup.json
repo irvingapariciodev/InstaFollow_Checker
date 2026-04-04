@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}|InstaFollow_Checker.API\\InstaFollow_Checker.API.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.api\\controllers\\followanalysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}|InstaFollow_Checker.API\\InstaFollow_Checker.API.csproj|solutionrelative:instafollow_checker.api\\controllers\\followanalysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}|InstaFollow_Checker.API\\InstaFollow_Checker.API.csproj|c:\\users\\irvin\\source\\repos\\iaservices - github\\instafollow_checker\\instafollow_checker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22E67A6B-3206-4E8C-8802-31E74B8B5DC4}|InstaFollow_Checker.API\\InstaFollow_Checker.API.csproj|solutionrelative:instafollow_checker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,28 +50,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.API\\Program.cs",
-              "RelativeDocumentMoniker": "InstaFollow_Checker.API\\Program.cs",
-              "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.API\\Program.cs",
-              "RelativeToolTip": "InstaFollow_Checker.API\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T23:46:30.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FollowAnalysisController.cs",
               "DocumentMoniker": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.API\\Controllers\\FollowAnalysisController.cs",
               "RelativeDocumentMoniker": "InstaFollow_Checker.API\\Controllers\\FollowAnalysisController.cs",
               "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.API\\Controllers\\FollowAnalysisController.cs",
               "RelativeToolTip": "InstaFollow_Checker.API\\Controllers\\FollowAnalysisController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T23:29:24.119Z",
+              "WhenOpened": "2026-04-04T03:59:06.523Z",
               "EditorCaption": ""
             },
             {
@@ -86,9 +69,9 @@
               "RelativeDocumentMoniker": "InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
               "ToolTip": "C:\\Users\\irvin\\source\\repos\\IASERVICES - GITHUB\\InstaFollow_Checker\\InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
               "RelativeToolTip": "InstaFollow_Checker.Web\\Pages\\Projects\\InstaFollowChecker\\InstaFollowChecker.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAgwEcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFgAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-03T23:26:33.868Z",
+              "WhenOpened": "2026-04-04T00:06:15.236Z",
               "EditorCaption": ""
             }
           ]

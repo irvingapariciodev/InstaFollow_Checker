@@ -1,6 +1,6 @@
 @InstaFollow_Checker.API_HostAddress = http://localhost:5213
 
-GET {{InstaFollow_Checker.API_HostAddress}}/weatherforecast/
+POST {{InstaFollow_Checker.API_HostAddress}}/Analyze
 Accept: application/json
 
 ###

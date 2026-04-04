@@ -134,6 +134,11 @@
 
                 const followersFile = document.getElementById("followerFile").files[0];
                 const followingFile = document.getElementById("followingFile").files[0];
+                
+                if (!followersFile || !followingFile) {
+                    alert("Please select both Followers and Following JSON files.");
+                    return;
+                }
 
                 const formData = new FormData();
                 formData.append("followersFile", followersFile);
@@ -144,13 +149,20 @@
                     body: formData
                 });
 
-                const result = await response.json();
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
 
-                //console.log("Full API response:", result);
+                const result = await response.json();
 
                 followersCount.textContent = result.followersCount;
                 followingCount.textContent = result.followingCount;
                 notFollowingBackCount.textContent = result.notFollowingBackCount;
+                
+                if (!result || !Array.isArray(result.usersNotFollowingBack)) {
+                    alert("Unexpected API response format.");
+                    return;
+                }
 
                 allUsers = result.usersNotFollowingBack;
 
@@ -188,7 +200,7 @@
 
                 });
                 tableBody.innerHTML = rows;
-            }
+               } 
 
             function renderPagination() {
                 pagination.innerHTML = "";
